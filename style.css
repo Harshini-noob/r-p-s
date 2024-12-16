@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(203, 232, 244);
+}
+
+.container{
+    margin-bottom: 100px;
+}
+button{
+    border: none;
+    border-radius: 50%;
+    background-color: skyblue;
+    margin: 30px;
+    font-size: 4rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.disp{
+    margin-top: 30px;
+    text-align: center;
+}
+button:hover{
+    background-color: hsl(0, 0%, 20%);
+}
+button:active{
+    background-color: hsl(0, 0%, 30%);
+}
+
